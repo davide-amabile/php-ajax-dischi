@@ -25,21 +25,22 @@
 
 .wrapper {
   width: 100%;
-  height: calc(100vh - 70px);
   background-color: #1e2a46;
-  position: relative;
 }
 
 .wrapper .ctn_disk {
   width: 1200px;
-  height: 80%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 1px solid white;
+  margin: auto;
+  padding: 50px 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.wrapper .ctn_disk .box_disk {
+  width: calc(100% / 4);
+  height: 400px;
+  background: #2e3a46;
+  margin: 15px;
 }
 
