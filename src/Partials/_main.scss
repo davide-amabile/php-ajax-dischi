@@ -1,0 +1,21 @@
+.wrapper{
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: $colorMain;
+  position: relative;
+  // container dischi
+  .ctn_disk{
+    width: 1200px;
+    height: 80%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  // / container dischi
+
+}
