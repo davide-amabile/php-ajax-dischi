@@ -15,9 +15,33 @@
       height: 400px;
       background: $colorNav;
       margin: 15px;
+      text-align: center;
+      padding: 20px;
+      // container immagine
+      .ctn_img{
+        margin: auto;
+        img{
+          width: 250px;
+          height: 250px;
+          border: 4px solid #fff;
+        }
+      }
+      // / container immagine
+      // titolo
+      h3 {
+        color: $colorWhite;
+        margin: 15px 0;
+        font-weight: bold;
+      }
+      // /titolo
+      // autore e anno
+      p{
+        color: #3c4650;
+        margin: 10px 0;
+      }
+      // / autore e anno
     }
     // box dei dischi
-
   }
   // / container dischi
 

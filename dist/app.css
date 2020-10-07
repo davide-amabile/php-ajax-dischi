@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .bar_up {
   width: 100%;
   height: 70px;
@@ -42,5 +46,28 @@
   height: 400px;
   background: #2e3a46;
   margin: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+.wrapper .ctn_disk .box_disk .ctn_img {
+  margin: auto;
+}
+
+.wrapper .ctn_disk .box_disk .ctn_img img {
+  width: 250px;
+  height: 250px;
+  border: 4px solid #fff;
+}
+
+.wrapper .ctn_disk .box_disk h3 {
+  color: #fff;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.wrapper .ctn_disk .box_disk p {
+  color: #3c4650;
+  margin: 10px 0;
 }
 
